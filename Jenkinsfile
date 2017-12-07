@@ -2,7 +2,7 @@
 properties([
     [$class: 'GithubProjectProperty',
     displayName: '',
-    projectUrlStr: 'https://github.com/Demo-pro/Sachin/']
+    projectUrlStr: 'https://github.com/Demo-pro/Sachin/']])
     pipelineTriggers(upstream(
       threshold: 'SUCCESS',
       upstreamProjects: 'https://github.com/Demo-pro/Dravid/'
